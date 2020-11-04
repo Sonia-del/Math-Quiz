@@ -1,0 +1,18 @@
+body {
+    background-color: thistle;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    font-family: sans-serif;
+
+}
+
+#output {
+    background: white;
+    border-radius: 10px;
+    border-top: 10px solid #AA4465;
+    padding: 10px;
+    float: none;
+    text-align: left;
+}

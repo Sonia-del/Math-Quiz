@@ -1,0 +1,85 @@
+body {
+    background-image: url("math-doodles.jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    font-family: sans-serif;
+
+}
+
+#player1_name,
+#player2_name {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#word {
+    width: 60%;
+}
+
+#word_display {
+    letter-spacing: 5px;
+}
+
+#output {
+    background: white;
+    border-radius: 10px;
+    border-top: 10px solid #AA4465;
+    padding: 10px;
+    float: none;
+    text-align: left;
+}
+
+#player1_name_input,
+#player2_name_input {
+    border-radius: 20px;
+    background: transparent;
+    border: none;
+    color: white;
+    size: 17px;
+}
+
+h1 {
+    color: red;
+    size: 25px;
+    font-weight: bold;
+}
+
+.login_div_1 {
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border: 5px solid red;
+
+}
+
+.login {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: center;
+    top: -50px;
+    left: calc(50% - 50%);
+
+
+}
+
+#button_login {
+    border-radius: 25px;
+    size: 15px;
+    background-color: red;
+    border: 3px solid white;
+}
+
+#button_login:hover {
+    background-color: white;
+    color: black;
+    border: 3px solid red;
+}
